@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
-outline: 1px dotted lime;
+/*outline: 1px dotted lime;
 }
-
-@media screen and (max-width:500px){
+*/
+@media screen and (max-width:550px){
     body {
         background-color: green;
     }
@@ -172,6 +172,18 @@ body {
     display: grid;
     grid-template-columns: 60% 40%;
 }
+
+.cinput {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 2fr;
+}
+.inputbox {
+    background-color: #D6564F;
+    margin: 4px;
+    border-radius: 5px;
+}
+
+
 
 .footer{
     background-color: #2D303A;
