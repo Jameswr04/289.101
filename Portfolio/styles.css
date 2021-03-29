@@ -7,10 +7,13 @@ outline: 1px dotted red;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: white;
     margin: 0;
-
 }
 
 h1, h2{
@@ -27,6 +30,10 @@ p {
     height: 90px;
     border-bottom: 6px solid #4B4E61;
     font-family: "Dela Gothic One" , sans-serif; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .nav {
@@ -58,8 +65,20 @@ p {
     text-decoration: none;
 }
 
+.banner {
+    margin-top: 600px;
+}
+
 .about {
-    color: black;
+    margin: 0;
+    padding: 20px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: white;
+    background-color: #4B4E61;
+}
+
+.aboutinfo{
     max-width: 900px;
     width: 100%;
     margin-left: auto;
@@ -70,6 +89,8 @@ p {
 .bgame {
     margin: 0;
     padding: 20px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     color: white;
     background-color: #4B4E61;
 }
@@ -101,6 +122,8 @@ p {
 .destech {
     margin: 0;
     padding: 20px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     color: black;
     background-color: white;
 }
